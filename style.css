@@ -31,8 +31,6 @@ body {
 }
 
 
-
-
 .navbar a { 
     font-size: 18px;
     color: white;
@@ -40,9 +38,6 @@ body {
     font-weight: 500;
     margin-left: 35px;
     transition: .4s;
-
-
-
 }
 
 .navbar a:hover,
@@ -55,6 +50,11 @@ body {
     align-items: center;
     height:100vh;
     padding: 0 10%;
+    background-image: url(photos/gear5.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 
 .home-content{ 
