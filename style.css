@@ -109,3 +109,60 @@ body {
     transition: .3s;
 
 }
+/*------------------------------------------------*/
+
+/*About Me Page*/
+
+.page {
+    background: linear-gradient(90deg, #ff6b6b, #ffe66d, #45cea2);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.main {
+    max-width: 600px;
+}
+
+.sub-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.sub-main h1{
+    font-size: 60px;
+    color: #ff6b6b;
+
+}
+
+.sub-main h2 {
+    font-size: 30px;;
+    color: #45cea2;
+    font-weight: 400;
+}
+
+.sub-main p {
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.sub-main video{
+    padding-top: 10%;
+    width: 100%;
+}
+
+.sub-main img{
+    width: 230px;
+}
+
+
+
