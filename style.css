@@ -175,8 +175,9 @@ footer{
 }
 
 .sub-main img{
+    padding-top: 100px;
     width: 230px;
-    padding: 10px 0 0 0;
+    
 }
 
 /*------------------------------------------------*/
