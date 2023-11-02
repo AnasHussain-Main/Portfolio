@@ -17,12 +17,14 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+
+// Serve static files for scripts and styles
+app.use(['/scripts', '/styles'], express.static('public'));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-// catch 404 and forward to error handler
+// catch 404 and forward to the error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
@@ -39,3 +41,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
